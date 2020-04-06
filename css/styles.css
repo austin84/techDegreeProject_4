@@ -398,6 +398,28 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.btn.default:hover {
+  background-color: #9cecfd;
+}
+
+.btn.error:hover {
+  background-color: #f1b5b8;
+}
+
+.btn.info:hover {
+  background-color: #bdafd9;
+}
+
+.btn.success:hover {
+  background-color: #9ddfb0;
+}
+
+.btn.warning:hover {
+  background-color: #feb4a2;
 }
 
 .default {

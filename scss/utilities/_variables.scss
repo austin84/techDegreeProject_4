@@ -15,7 +15,6 @@ $font-light: 300;
 $font-large: 1.5em;
 
 // Borders
-
 $rounded: 5px;
 
 // Base Colors
@@ -31,6 +30,12 @@ $error-button-color: #e4757a;
 $info-button-color: #927bc1;
 $success-button-color: #63cc82;
 $warning-button-color: #fd7856;
+
+$default-button-color-light: lighten($default-button-color, 15%);
+$error-button-color-light: lighten($error-button-color, 15%);
+$info-button-color-light: lighten($info-button-color, 15%);
+$success-button-color-light: lighten($success-button-color, 15%);
+$warning-button-color-light: lighten($warning-button-color, 15%);
 
 // Grid Colors
 $grid-color-1: #927bc1;

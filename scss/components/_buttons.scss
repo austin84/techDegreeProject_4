@@ -4,6 +4,21 @@
 
 .btn {
   @include button;
+  &.default:hover {
+    background-color: $default-button-color-light;
+  }
+  &.error:hover {
+    background-color: $error-button-color-light;
+  }
+  &.info:hover {
+    background-color: $info-button-color-light;
+  }
+  &.success:hover {
+    background-color: $success-button-color-light;
+  }
+  &.warning:hover {
+    background-color: $warning-button-color-light;
+  }
 }
 
 .default {
