@@ -1,0 +1,74 @@
+//
+// MIXINS
+//
+
+@mixin flexbox ($dir) {
+  display: flex;
+  flex-direction: $dir;
+}
+
+
+// Typography
+
+@mixin blockquote {
+  font-size: $font-large;
+  font-weight: $font-light;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid $color-primary;
+  border-radius: $rounded;
+}
+
+
+// Buttons
+
+@mixin button {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: $rounded; 
+}
+
+// Forms
+
+@mixin form-input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: $rounded solid $color-primary;
+}
+
+@mixin hidden-label {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+// Grid Structure
+
+@mixin grid-structure {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: $rounded;
+}
+
+// Images
+
+@mixin image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+}

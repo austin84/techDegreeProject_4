@@ -27,21 +27,15 @@ a {
 }
 
 .headline-secondary {
-  font-weight: 300;
+  font-weight: $font-light;
   color: $text-color-primary;
 }
 
 .link {
   color: $link-color-primary;
-  font-weight: 700;
+  font-weight: $font-heavy;
 }
 
 .blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid $color-primary;
-  border-radius: 5px;
+  @include blockquote;
 }
